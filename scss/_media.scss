@@ -1,0 +1,244 @@
+@media (max-width: 1161px) {
+    h3 {
+        font-size: 38px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    section {
+        margin-top: 120px !important;
+    }
+
+    .achivements__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits__inner,
+    .service__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copy {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 961px) {
+
+    .header__nav {
+        justify-content: center;
+    }
+
+    .header__content-title {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 761px) {
+
+    h3 {
+        font-size: 32px;
+    }
+
+    .header__content-title {
+        font-size: 80px;
+    }
+
+    .header__content-subtitle {
+        font-size: 32px;
+    }
+
+    .header__inner {
+        gap: 90px;
+    }
+
+    .header__nav-btn {
+        display: block;
+        position: absolute;
+        top: 40px;
+        z-index: 10;
+    }
+
+    .header__nav-btn.--active {
+        position: fixed;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        gap: 90px;
+        background-color: rgba(#000, .9);
+        transform: translateY(-500%);
+        transition: ease .5s;
+    }
+
+    .header__nav.--active {
+        transform: translateY(0);
+        transition: ease .5s;
+    }
+
+    .works__title {
+        margin-bottom: 60px;
+    }
+
+    .works__images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .achivements__right-list__item {
+        padding: 15px;
+        width: 180px;
+    }
+
+    .achivements__right-list__text {
+        font-size: 12px;
+    }
+
+    .swiper {
+        max-width: 500px;
+
+        p {
+            font-size: 14px !important;
+            max-width: 280px !important;
+        }
+    }
+
+    .footer__form {
+        min-width: 100%;
+    }
+
+    .footer__form-top,
+    .footer__form-middle,
+    .footer__form-bottom {
+        flex-direction: column;
+    }
+
+    .footer__form-middle__links {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer__form-bottom__btn {
+        margin: 0 auto 20px;
+    }
+
+    .footer__form-bottom__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer__form-bottom__link {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 601px) {
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    section {
+        margin-top: 70px !important;
+    }
+
+    .swiper {
+        max-width: 400px;
+    }
+
+    .header__content-title {
+        font-size: 48px;
+    }
+
+    .header__content-subtitle {
+        font-size: 20px;
+    }
+
+    .header__content-info__item {
+        padding: 10px;
+    }
+
+    .header__content-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-info__item {
+        border: none !important;
+    }
+
+    .achivements__right-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .achivements__right-list__item {
+        border: none !important;
+        transform: translateY(0) !important;
+    }
+
+    .works__images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service__tabs {
+        flex-direction: column;
+    }
+
+    .service__list-item {
+        padding: 30px;
+    }
+
+    .service__list-item__title {
+        margin: 20px 0;
+    }
+
+    .footer__copy {
+        text-align: center;
+    }
+
+    .footer__copy-nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 461px) {
+    .swiper {
+        max-width: 210px;
+    }
+
+    .slider__swiper-btn,
+    .benefits__right .benefits__swiper-btn,
+    .service__info .service-button-prev,
+    .service__info .service-button-next {
+        display: none;
+    }
+}
